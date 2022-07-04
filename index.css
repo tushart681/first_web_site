@@ -34,3 +34,19 @@ h1 {
     padding: 10px 40px;
     border-radius: 5px;
 }
+
+.all_contain1 {
+    display: flex;
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.halph_width1 {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.halph_width1 img {
+    width: 80%;
+}
