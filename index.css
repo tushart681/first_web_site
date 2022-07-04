@@ -11,8 +11,11 @@ h1 {
     color: orange;
 }
 
-.all_contain {
+.flexible_contain {
     display: flex;
+}
+
+.all_contain {
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -36,7 +39,6 @@ h1 {
 }
 
 .all_contain1 {
-    display: flex;
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -49,4 +51,30 @@ h1 {
 
 .halph_width1 img {
     width: 80%;
+}
+
+.halph_width2 {
+    width: 50%;
+    box-shadow: 10px 10px 30px gray;
+    margin: 5%;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.experiance_image {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.border_color1 {
+    border-left: 7px solid tomato;
+}
+
+.border_color2 {
+    border-left: 7px solid blue;
+}
+
+.peter {
+    text-align: center;
 }
